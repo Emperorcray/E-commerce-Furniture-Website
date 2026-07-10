@@ -64,7 +64,7 @@ input{
     }
     /* Styling the content inside the Google button */
     .googleBtn>div{
-        width: 28vw;
+        width: 30vw;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -107,7 +107,7 @@ input{
     /* Styling the email, password, and confirm password input fields */
     #email, #password,#confirmPassword{
         height: 40px;
-        width: 47vw;
+        width: 50vw;
         border: 1px solid grey;
         margin-top: 5px;
         border-radius: 5px 5px 5px 5px;
@@ -122,7 +122,7 @@ input{
     /* Styling the submit button */
     .submitBtn{
         height: 50px;
-        width: 47vw;
+        width: 50vw;
         font-weight: 600;
         font-size: 18px;
         border: none;
