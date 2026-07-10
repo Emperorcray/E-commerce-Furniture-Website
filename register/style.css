@@ -12,6 +12,501 @@ body{
 input{
     font-family: inherit;
 }
+/* Media query for screens with a width of 332px or less */
+@media screen and (max-width: 332px){
+    /* Styling the section */
+    section{
+        height: 900px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    /* Styling the logo */
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        color: #e9740d;
+    }
+    form{
+        height: 600px;
+        width: 79vw;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Styling the form heading with specific text alignment, font size, weight, and color */
+    .FormHeading{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #e68429;
+    }
+    /* Styling the Google login section */
+    .googleLogin{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    /* Styling for the Google button */
+    .googleBtn{
+        height: 40px;
+        width: 58vw;
+        border: 1px solid grey;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 36px;
+        font-size: 12px;
+    }
+    /* Styling the content inside the Google button */
+    .googleBtn>div{
+        width: 42vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* Styling the Google icon inside the button */
+    .googleBtn>div>i{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    /* Adding hover effect to the Google button */
+    .googleBtn:hover{
+        border: 1px solid #e9740d;
+        color: #e9740d;
+        transition: 0.5s;
+    }
+    /* Styling the sign up section */
+    .signUp{
+        text-align: center;
+        font-size: 15px;
+    }
+    /* Styling the sign up link */
+    .signUp>a{
+        text-decoration: none;
+        color: #e9740d;
+        font-weight: 500;
+    }
+    /* Adding hover effect to the sign up link */
+    .signUp>a:hover{
+        text-decoration: underline;
+        transition: 0.5s;
+    }
+    /* Styling the input labels and fields for email and password */
+    .inputLabel{
+        height: 85px;
+        display: block;
+        padding-left: 36px;
+        align-content: center;
+        font-weight: 600;
+    }
+    /* Styling the email, password, and confirm password input fields */
+    #email, #password,#confirmPassword{
+        height: 40px;
+        width: 58vw;
+        border: 1px solid grey;
+        margin-top: 5px;
+        border-radius: 5px 5px 5px 5px;
+        text-indent: 10px;
+    }
+    /* Adding focus effect to the email and password input fields */
+    .inputLabel>input:focus{
+        outline: 1px solid #e9740d;
+        transition: 0.5s;
+        border: none;
+    }
+    /* Styling the submit button */
+    .submitBtn{
+        height: 50px;
+        width: 58vw;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #e9740d;
+        cursor: pointer;
+    }
+    /* Adding hover effect to the submit button */
+    .submitBtn:hover{
+        background-color: #c1580d;
+        transition: 0.5s;
+    }
+}
+@media screen and (min-width: 333px) and (max-width: 383px){
+    /* Styling the section */
+    section{
+        height: 900px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    /* Styling the logo */
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        color: #e9740d;
+    }
+    form{
+        height: 600px;
+        width: 79vw;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Styling the form heading with specific text alignment, font size, weight, and color */
+    .FormHeading{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #e68429;
+    }
+    /* Styling the Google login section */
+    .googleLogin{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    /* Styling for the Google button */
+    .googleBtn{
+        height: 40px;
+        width: 58vw;
+        border: 1px solid grey;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 36px;
+        font-size: 12px;
+    }
+    /* Styling the content inside the Google button */
+    .googleBtn>div{
+        width: 42vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* Styling the Google icon inside the button */
+    .googleBtn>div>i{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    /* Adding hover effect to the Google button */
+    .googleBtn:hover{
+        border: 1px solid #e9740d;
+        color: #e9740d;
+        transition: 0.5s;
+    }
+    /* Styling the sign up section */
+    .signUp{
+        text-align: center;
+        font-size: 15px;
+    }
+    /* Styling the sign up link */
+    .signUp>a{
+        text-decoration: none;
+        color: #e9740d;
+        font-weight: 500;
+    }
+    /* Adding hover effect to the sign up link */
+    .signUp>a:hover{
+        text-decoration: underline;
+        transition: 0.5s;
+    }
+    /* Styling the input labels and fields for email and password */
+    .inputLabel{
+        height: 85px;
+        display: block;
+        padding-left: 36px;
+        align-content: center;
+        font-weight: 600;
+    }
+    /* Styling the email, password, and confirm password input fields */
+    #email, #password,#confirmPassword{
+        height: 40px;
+        width: 58vw;
+        border: 1px solid grey;
+        margin-top: 5px;
+        border-radius: 5px 5px 5px 5px;
+        text-indent: 10px;
+    }
+    /* Adding focus effect to the email and password input fields */
+    .inputLabel>input:focus{
+        outline: 1px solid #e9740d;
+        transition: 0.5s;
+        border: none;
+    }
+    /* Styling the submit button */
+    .submitBtn{
+        height: 50px;
+        width: 58vw;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #e9740d;
+        cursor: pointer;
+    }
+    /* Adding hover effect to the submit button */
+    .submitBtn:hover{
+        background-color: #c1580d;
+        transition: 0.5s;
+    }
+}
+/* Media query for screens with a width between 384px and 434px */
+@media screen and (min-width: 384px) and (max-width: 434px){
+    /* Styling the section */
+    section{
+        height: 900px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    /* Styling the logo */
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        color: #e9740d;
+    }
+    form{
+        height: 600px;
+        width: 75vw;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Styling the form heading with specific text alignment, font size, weight, and color */
+    .FormHeading{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #e68429;
+    }
+    /* Styling the Google login section */
+    .googleLogin{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    /* Styling for the Google button */
+    .googleBtn{
+        height: 40px;
+        width: 56vw;
+        border: 1px solid grey;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 36px;
+        font-size: 12px;
+    }
+    /* Styling the content inside the Google button */
+    .googleBtn>div{
+        width: 38vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* Styling the Google icon inside the button */
+    .googleBtn>div>i{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    /* Adding hover effect to the Google button */
+    .googleBtn:hover{
+        border: 1px solid #e9740d;
+        color: #e9740d;
+        transition: 0.5s;
+    }
+    /* Styling the sign up section */
+    .signUp{
+        text-align: center;
+        font-size: 15px;
+    }
+    /* Styling the sign up link */
+    .signUp>a{
+        text-decoration: none;
+        color: #e9740d;
+        font-weight: 500;
+    }
+    /* Adding hover effect to the sign up link */
+    .signUp>a:hover{
+        text-decoration: underline;
+        transition: 0.5s;
+    }
+    /* Styling the input labels and fields for email and password */
+    .inputLabel{
+        height: 85px;
+        display: block;
+        padding-left: 36px;
+        align-content: center;
+        font-weight: 600;
+    }
+    /* Styling the email, password, and confirm password input fields */
+    #email, #password,#confirmPassword{
+        height: 40px;
+        width: 56vw;
+        border: 1px solid grey;
+        margin-top: 5px;
+        border-radius: 5px 5px 5px 5px;
+        text-indent: 10px;
+    }
+    /* Adding focus effect to the email and password input fields */
+    .inputLabel>input:focus{
+        outline: 1px solid #e9740d;
+        transition: 0.5s;
+        border: none;
+    }
+    /* Styling the submit button */
+    .submitBtn{
+        height: 50px;
+        width: 56vw;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #e9740d;
+        cursor: pointer;
+    }
+    /* Adding hover effect to the submit button */
+    .submitBtn:hover{
+        background-color: #c1580d;
+        transition: 0.5s;
+    }
+}
+/* Media query for screens with a width between 435px and 485px */
+@media screen and (min-width: 435px) and (max-width: 485px){
+    /* Styling the section */
+    section{
+        height: 900px;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    /* Styling the logo */
+    .logo{
+        font-size: 26px;
+        font-weight: 700;
+        color: #e9740d;
+    }
+    form{
+        height: 600px;
+        width: 70vw;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    /* Styling the form heading with specific text alignment, font size, weight, and color */
+    .FormHeading{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #e68429;
+    }
+    /* Styling the Google login section */
+    .googleLogin{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    /* Styling for the Google button */
+    .googleBtn{
+        height: 40px;
+        width: 54vw;
+        border: 1px solid grey;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 36px;
+        font-size: 13px;
+    }
+    /* Styling the content inside the Google button */
+    .googleBtn>div{
+        width: 35vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* Styling the Google icon inside the button */
+    .googleBtn>div>i{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    /* Adding hover effect to the Google button */
+    .googleBtn:hover{
+        border: 1px solid #e9740d;
+        color: #e9740d;
+        transition: 0.5s;
+    }
+    /* Styling the sign up section */
+    .signUp{
+        text-align: center;
+        font-size: 15px;
+    }
+    /* Styling the sign up link */
+    .signUp>a{
+        text-decoration: none;
+        color: #e9740d;
+        font-weight: 500;
+    }
+    /* Adding hover effect to the sign up link */
+    .signUp>a:hover{
+        text-decoration: underline;
+        transition: 0.5s;
+    }
+    /* Styling the input labels and fields for email and password */
+    .inputLabel{
+        height: 85px;
+        display: block;
+        padding-left: 36px;
+        align-content: center;
+        font-weight: 600;
+    }
+    /* Styling the email, password, and confirm password input fields */
+    #email, #password,#confirmPassword{
+        height: 40px;
+        width: 54vw;
+        border: 1px solid grey;
+        margin-top: 5px;
+        border-radius: 5px 5px 5px 5px;
+        text-indent: 10px;
+    }
+    /* Adding focus effect to the email and password input fields */
+    .inputLabel>input:focus{
+        outline: 1px solid #e9740d;
+        transition: 0.5s;
+        border: none;
+    }
+    /* Styling the submit button */
+    .submitBtn{
+        height: 50px;
+        width: 54vw;
+        font-weight: 600;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #e9740d;
+        cursor: pointer;
+    }
+    /* Adding hover effect to the submit button */
+    .submitBtn:hover{
+        background-color: #c1580d;
+        transition: 0.5s;
+    }
+}
 /* Media query for screens with a width between 486px and 536px */
 @media screen and (min-width: 486px) and (max-width: 536px){
     /* Styling the section */
