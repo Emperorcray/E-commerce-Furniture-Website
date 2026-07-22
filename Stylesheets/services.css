@@ -89,11 +89,11 @@ body{
         border-radius: 6px 6px 6px 6px;
     }
     section{
-        height: 480vh;
+        height: 4000px;
         width: 100%;
     }
     .our_services{
-        height: 50vh;
+        height: 300px;
         width: 100%;
         background-color: #faeacb;
         display: grid;
@@ -112,12 +112,12 @@ body{
         text-align: center;
     }
     .what_we_offer{
-        height: 190vh;
+        height: 1200px;
         width: 100%;
         align-content: center;
     }
     .offer_heading{
-        height: 20vh;
+        height: 130px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -135,7 +135,7 @@ body{
         color: #374151;
     }
     .my_price_offers{
-        height: 140vh;
+        height: 900px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -144,7 +144,7 @@ body{
         margin-top: 40px;
     }
     .my_price_offers>div{
-        height: 64vh;
+        height: 400px;
         width: 45vw;
         border: 1px solid #e5e7eb;
         border-radius: 6px 6px 6px 6px;
@@ -170,7 +170,7 @@ body{
         margin-left: 20px;
     }
     .offer_info{
-        height: 43vh;
+        height: 260px;
         width: 40vw;
         margin-top: 10px;
     }
@@ -178,7 +178,7 @@ body{
         color: #374151;
     }
     .offer_features{
-        height: 23vh;
+        height: 130px;
         width: 100%;
     }
     .offer_features>div{
@@ -194,7 +194,7 @@ body{
         margin-left: 10px;
     }
     .tag{
-        height: 10vh;
+        height: 60px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -205,7 +205,7 @@ body{
         font-weight: 700;
     }
     .tag>button{
-        height: 7vh;
+        height: 50px;
         width: 12vw;
         border-radius: 6px 6px 6px 6px;
         color: white;
@@ -222,13 +222,13 @@ body{
         background-color: #ca5b15;
     }
     .design_process{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         background-color: #e5e7eb;
         align-content: center;
     }
     .design_heading{
-        height: 25vh;
+        height: 150px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -247,15 +247,15 @@ body{
         font-size: 19px;
     }
     .design_process_container{
-        height: 50vh;
+        height: 300px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .design_process_container>div{
-        height: 40vh;
-        width: 20vw;
+        height: 250px;
+        width: 22vw;
         align-content: center;
     }
     .process_steps{
