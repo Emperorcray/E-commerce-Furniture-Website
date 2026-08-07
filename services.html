@@ -6,6 +6,7 @@
     <title>Luxel Interiors - Services</title>
     <link rel="icon" href="Images/favicon.png">
     <link rel="stylesheet" href="Stylesheets/services.css">
+    <script src="Scripts/script.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
@@ -22,7 +23,7 @@
         <!-- This contains the navigation menu (the logo, the homepage link and the cart link)-->
         <nav>
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a> <br>
                 <a href="index.html">Home</a>
                 <a href="About-us.html">About</a>
                 <a href="services.html">Services</a>
@@ -44,15 +45,18 @@
                 <a href="contact.html">Contacts</a>
             </div>
             <div class="nav_link2">
-                <a href="javascript:void(0)" title="Cart" onclick="cartalert()" id="cart"><i class="fi fi-br-shopping-cart"></i></a>
+                <div class="cart-dropdown">
+                    <a href="javascript:void(0)" title="Cart" id="cart"><i class="fi fi-br-shopping-cart"></i></a>
+                    <div id="mycart" class="cart-content">
+                        <p>Cart is still in development</p>
+                    </div>
+                </div>
                 <!-- Sign Up link -->
                 <a href="../Luxel-interiors/Login/" class="signup_btn">Sign Up</a>
                 <!-- User profile link -->
-                <div style="cursor: pointer;"><i class="fi fi-rr-user"></i></div>
+                <div style="cursor: pointer;"><a href="../Luxel-interiors/profile/"><i class="fi fi-rr-user"></i></a></div>
             </div>
-            <div id="mycart" class="cart-content">
-                <p>Cart is still in development</p>
-            </div>
+            
         </nav>
     </header>
     <section>
