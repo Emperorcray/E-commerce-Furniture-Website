@@ -7,7 +7,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
-/* for the cart button */
-function cartalert() {
-  document.getElementById("mycart").classList.toggle("show");
-}
