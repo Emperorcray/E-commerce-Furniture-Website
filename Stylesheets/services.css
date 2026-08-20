@@ -190,7 +190,7 @@ body{
     }
     .my_price_offers>div{
         height: 380px;
-        width: 55vw;
+        width: 60vw;
         border: 1px solid #e5e7eb;
         border-radius: 6px 6px 6px 6px;
         display: grid;
@@ -201,7 +201,7 @@ body{
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     }
     .offers_heading{
-        width: 30vw;
+        width: 50vw;
         display: flex;
         align-items: center;
     }
@@ -216,7 +216,7 @@ body{
     }
     .offer_info{
         height: 260px;
-        width: 40vw;
+        width: 50vw;
         margin-top: 10px;
     }
     .offer_summary{
@@ -253,7 +253,7 @@ body{
     }
     .tag>button{
         height: 50px;
-        width: 16vw;
+        width: 20vw;
         border-radius: 6px 6px 6px 6px;
         color: white;
         display: inline-block;
@@ -350,7 +350,7 @@ body{
         font-size: 17px;
         font-weight: 500;
         color: #374151;
-        width: 47vw;
+        width: 100%;
     }
     .choose_services{
         height: 350px;
@@ -413,7 +413,7 @@ body{
     .consultation{
         cursor: pointer;
         height: 60px;
-        width: 26vw;
+        width: 28vw;
         border: 1px solid white;
         color: #e68429;
         border-radius: 8px 8px 8px 8px;
