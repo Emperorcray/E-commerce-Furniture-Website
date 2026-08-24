@@ -8,7 +8,7 @@ An e-commerce website built to help users find the best furniture for the interi
 
 **Database:** MySQL
 
-**Preview Link:** luxelinteriors.thsite.top
+**Preview Link:** https://luxelinteriors.thsite.top
 ## Features
 
 - Multi-page navigation with About us, services, products, contact pages
