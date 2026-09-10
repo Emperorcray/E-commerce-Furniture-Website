@@ -7237,18 +7237,6 @@ body{
         text-decoration: none;
         color: black;
     }
-    .cart-dropdown:hover .cart-content {
-        display: block;
-    }
-    .cart-content{
-        display: none;
-        height: 200px;
-        position: fixed;
-        z-index: 2;
-        background-color: white;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        margin-top: 20px;
-    }
     /* This styles the logo */
     .logo{
         display: flex;
