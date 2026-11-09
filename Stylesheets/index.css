@@ -217,7 +217,7 @@ body{
         transition-duration: 300ms;
     }
     .main_img{
-        height: 300px;
+        height: 240px;
         width: 72vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -233,13 +233,13 @@ body{
         color: white;
         background-color: #e68429;
         display: inline-block;
-        width: 22vw;
+        width: 24vw;
         height: 60px;
         text-align: center;
         align-content: center;
         font-weight: 600;
         border-radius: 10px 10px 10px 10px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .shop_now:hover{
         background-color: #a83f15;
@@ -252,13 +252,13 @@ body{
         color: #e68429;
         text-decoration: none;
         font-weight: 600;
-        width: 25vw;
+        width: 27vw;
         height: 57px;
         border: 2px solid #e68429;
         text-align: center;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
-        font-size: 15px;
+        font-size: 14px;
     }
     .design_services:hover{
         background-color: #e68429;
@@ -277,7 +277,7 @@ body{
         align-content: center;
     }
     .choose_title1{
-        font-size: 32px;
+        font-size: 30px;
         text-align: center;
         font-weight: 700;
     }
@@ -286,7 +286,7 @@ body{
         text-align: center;
         font-weight: 500;
         color: gray;
-        font-size: 18px;
+        font-size: 17px;
     }
     .reasons_container{
         height: 500px;
@@ -298,7 +298,7 @@ body{
     }
     .reasons_div{
         height: 200px;
-        width: 40vw;
+        width: 46vw;
         text-align: center;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -353,7 +353,7 @@ body{
     }
     .products{
         height: 310px;
-        width: 39vw;
+        width: 42vw;
         box-shadow: 5px 10px 18px #8080807a;
         border-radius: 10px 10px 10px 10px;
     }
@@ -365,7 +365,7 @@ body{
     }
     .product_name{
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
     }
     .products>div{
@@ -378,14 +378,14 @@ body{
     .price_tag{
         color: #e68429;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 15px;
     }
     .view_details{
         text-decoration: none;
         color: white;
         background-color: #e68429;
         display: inline-block;
-        width: 19vw;
+        width: 20vw;
         height: 40px;
         text-align: center;
         align-content: center;
@@ -484,14 +484,14 @@ body{
     .Transform_title{
         color: white;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
     }
     .Transform_summary{
         color: #faeacb;
         font-weight: 600;
         text-align: center;
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 10px;
     }
     .get_started_btn{
@@ -500,7 +500,7 @@ body{
     }
     .get_started_btn>a{
         height: 60px;
-        width: 38vw;
+        width: 40vw;
         display: inline-block;
         text-decoration: none;
         color: #e68429;
